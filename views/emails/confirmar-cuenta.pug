@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style
+            include ./email.css
+        
+    body
+        h2 Confirma tu cuenta en UpTask
+        p Casi terminamos, presiona el siguiente botón para confirmar tu cuenta:
+        
+        a(href=`${confirmUrl}`) Confirmar mi correo
+        p Sí no puedes acceder a este enlace, visita #{confirmUrl}
+
+        p Sí no solicitaste reestablecer tu contraseña, puedes ignorar este mensaje

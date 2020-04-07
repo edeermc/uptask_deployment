@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        style
+            include ./email.css
+        
+    body
+        h2 Reestablecer contraseña
+        p Hola, has solicitado reestablecer tu contraseña, haz click en el siguiente enlace:
+        small 
+            i
+                b Nota: 
+                span Este enlace es temporal, así que si se vence vuelve a solicitarlo.
+        
+        a(href=`${resetUrl}`) Ir a resetear la contraseña
+        p Sí no puedes acceder a este enlace, visita #{resetUrl}
+
+        p Sí no solicitaste reestablecer tu contraseña, puedes ignorar este mensaje
