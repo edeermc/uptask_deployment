@@ -41,7 +41,7 @@ if (tareas) {
                                 elementoHTML.parentElement.removeChild(elementoHTML);
                                 actualizarAvance();
                                 Swal.fire(
-                                    'Proyecto eliminado!',
+                                    'Tarea eliminada correctamente!',
                                     respuesta.data,
                                     'success'
                                 );
